@@ -21,4 +21,5 @@ def now_serving(katz_deli)
   else
     puts "currently serving #{katz_deli[0]}"
     katz_deli.unshift
+  end
 end
