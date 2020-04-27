@@ -8,6 +8,6 @@ def line(katz_deli)
      katz_deli.each_with_index do|name,index|
       katz_deli_ordered.push("#{index+1}. #{name}")
      end
-    puts "The line is currently: #{katz_deli_ordered.join}"
+    puts "The line is currently: #{katz_deli_ordered.join(" ")}"
   end
 end
